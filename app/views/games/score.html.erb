@@ -1,0 +1,8 @@
+<div class="container">
+<h1>Result</h1>
+<% if @result %>
+  <p><strong>Congratulations!</strong> <%= params["input_word"] %> is a valid English word!</p>
+<% else %>
+  <p><strong>Sorry!</strong> <%= params["input_word"] %> is not a valid English word</p>
+<% end %>
+</div>
